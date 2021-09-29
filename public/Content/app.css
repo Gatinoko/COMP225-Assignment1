@@ -3,6 +3,19 @@ body {
     background-color: rgb(29, 29, 29);
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type=text] {
+    margin: 0 0 8px 0;
+}
+
 /* @media queries for screen sizes */
 @media only screen and (min-width: 400px) {
     
@@ -36,6 +49,7 @@ body {
     .flex-container {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
     }
 }
 
@@ -53,6 +67,7 @@ body {
     .flex-container {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
     }
 }
 
@@ -70,9 +85,11 @@ body {
     .flex-container {
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
     }
 }
 
+/* CSS classes */
 .main-container {
     background-color: rgb(253, 253, 253);
     padding: 0 20px 20px 20px;
