@@ -1,15 +1,89 @@
-/* Custom CSS */
-
 /* CSS HTML objects */
 body {
     background-color: rgb(29, 29, 29);
 }
 
-/* CSS classes */
+/* @media queries for screen sizes */
+@media only screen and (min-width: 400px) {
+    
+    /* CSS classes */
+    .main-container {
+        background-color: rgb(253, 253, 253);
+        margin: 0 10px 0 10px;
+        padding: 0 20px 20px 20px;
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+    /* CSS classes */
+    .main-container {
+        background-color: rgb(253, 253, 253);
+        margin: 0 30px 0 30px;
+        padding: 0 20px 20px 20px;
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    
+    /* CSS classes */
+    .main-container {
+        background-color: rgb(253, 253, 253);
+        margin: 0 75px 0 75px;
+        padding: 0 20px 20px 20px;
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    /* CSS classes */
+    .main-container {
+        background-color: rgb(253, 253, 253);
+        margin: 0 150px 0 150px;
+        padding: 0 20px 20px 20px;
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 .main-container {
     background-color: rgb(253, 253, 253);
-    margin: 0 150px 0 150px;
     padding: 0 20px 20px 20px;
     height: 100%;
     border-radius: 0 0 10px 10px;
+}
+
+.circular-container {
+    border-radius: 200px 200px 200px 200px;
+}
+
+.flex-item {
+    padding: 10px;
 }
