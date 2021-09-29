@@ -1,1 +1,15 @@
-/* custom css goes here */
+/* Custom CSS */
+
+/* CSS HTML objects */
+body {
+    background-color: rgb(29, 29, 29);
+}
+
+/* CSS classes */
+.main-container {
+    background-color: rgb(253, 253, 253);
+    margin: 0 150px 0 150px;
+    padding: 0 20px 20px 20px;
+    height: 100%;
+    border-radius: 0 0 10px 10px;
+}
