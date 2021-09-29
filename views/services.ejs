@@ -1,16 +1,29 @@
 <%- include partials/head.ejs %>
 <%- include partials/main_nav.ejs %>
 
-  <!-- Main Content -->
+  <!-- Main -->
   <main class="main-container">
+
+    <!-- Jumbotron -->
     <div class="jumbotron ">
       <h1 class="display-4"><%= title %> page</h1>
     </div>
-    <p>Here you can find a list of services I'm able to offer:</p>
-    <ul>
-      <li>Web development;</li>
-      <li>Desktop applications.</li>
-    </ul>
+
+    <!-- Content -->
+    <div class="flex-container">
+
+      <!-- Icon -->
+      <i class="fas fa-briefcase fa-7x flex-item"></i>
+
+      <!-- Text -->
+      <div class="flex-item">
+        <p>Here you can find a list of services I'm able to offer:</p>
+        <ul>
+          <li>Web development;</li>
+          <li>Desktop applications.</li>
+        </ul>
+      </div>
+    </div>
   </main>
   
 <%- include partials/footer.ejs %>  
