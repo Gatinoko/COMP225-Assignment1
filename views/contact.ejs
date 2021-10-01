@@ -20,7 +20,7 @@
 
       <!-- Text -->
       <div class="flex-item">
-        <p>You can either contact me from my contact information, or the form just below:</p>
+        <p>You can either reach me out through my contact information, or the form just below:</p>
         <ul>
           <li>Email: gdiastin@my.centennialcollege.ca</li>
           <li>LinkedIn: Gabriel Tinoco</li>
@@ -29,24 +29,24 @@
     </div>
 
     <!-- Form -->
-    <form class="flex-container" action="post" style="width: 100%; flex-direction: column;">
+    <form class="flex-container needs-validation" action="post" style="width: 100%; flex-direction: column;">
       <div class="flex-container" style="width: 100%;">
         
         <!-- Required information -->
         <div class="flex-item" style="display: flex; flex-direction: column; width: 100%;">
-          <label for="firstName">First name: </label> <input type="text" name="firstName" style="width: auto;" required>
-          <label for="lastName">Last name: </label> <input type="text" name="lastName" required>
-          <label for="contactNumber">Contact number: </label> <input type="text" name="contactNumber" required>
-          <label for="emailAddress">Email address: </label> <input type="text" name="emailAddress" required>
+          <label for="firstName">First name: </label> <input class="form-control" type="text" name="firstName" style="width: auto;" required>
+          <label for="lastName">Last name: </label> <input class="form-control" type="text" name="lastName" required>
+          <label for="contactNumber">Contact number: </label> <input class="form-control" type="tel" name="contactNumber" required>
+          <label for="emailAddress">Email address: </label> <input class="form-control" type="email" name="emailAddress" required>
         </div>
 
         <!-- Message section -->
         <div class="flex-item" style="display: flex; flex-direction: column; flex: 1 1 auto; width: 100%;">
           <label for="message">Message: </label> 
-          <textarea id="a" name="message" style="height: 225px; width: 100%;" required></textarea>
+          <textarea class="form-control" id="a" name="message" style="height: 260px; width: 100%;" required></textarea>
         </div>
       </div>
-      <input type="submit" style="margin: 10px 10px 10px 10px;">
+      <input id="SubmitButton" type="button" value="Submit" style="margin: 10px 10px 10px 10px;">
     </form>
   </div>
 </main>
